@@ -2825,8 +2825,11 @@ input, select, textarea {
 				filter: blur(0.5em);
 				opacity: 0;
 			}
+			.tiles article:nth-child(3) {
+				width: 100%;
+			}
 
-			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
+			.tiles article:nth-child(4n - 1) .tiles article:nth-child(4n - 2) {
 				width: 60%;
 			}
 
